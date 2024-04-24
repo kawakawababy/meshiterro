@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 2024_04_23_185515) do
     t.datetime "remember_created_at"
     t.string "shop_name"
     t.text "caption"
-    t.integer "user_"
+    t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["email"], name: "index_post_images_on_email", unique: true
